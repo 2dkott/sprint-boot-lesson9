@@ -47,7 +47,7 @@ public class IssueController {
 
       Date between = faker.date().between(startOfYear(), endOfYear());
       issue.setIssuedAt(between.toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
-      issue.setBookId(bookProvider.getRandomBookId());
+      issue.setBook(bookProvider.getRandomBook());
       issue.setReader(readerProvider.getRandomReader());
 
       issues.add(issue);

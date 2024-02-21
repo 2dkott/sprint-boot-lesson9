@@ -1,6 +1,7 @@
 package ru.gb.api;
 
 import com.github.javafaker.Faker;
+import org.example.Timer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/book")
+@Timer
 public class BookController {
 
   private final Faker faker;

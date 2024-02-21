@@ -7,3 +7,7 @@ eureka:
 spring:
   application:
     name: book-service
+
+timer:
+  logging:
+    method-data: false

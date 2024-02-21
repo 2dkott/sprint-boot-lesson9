@@ -21,6 +21,7 @@
 		<module>reader-service</module>
         <module>api</module>
 		<module>reader-service</module>
+		<module>time-logger-starter</module>
 	</modules>
 	<properties>
 		<java.version>21</java.version>
